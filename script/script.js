@@ -347,9 +347,9 @@ function makeRequest() {
         message.value = "";
         button.textContent = "Make a request";
         setTimeout(() => {
-          window.open(
-            "https://drive.google.com/file/d/1NPut1-sg-IjEzMu2ftm72Lu2LTMeqnoP/view?usp=sharing"
-          );
+          // window.open(
+          //   "https://drive.google.com/file/d/1NPut1-sg-IjEzMu2ftm72Lu2LTMeqnoP/view?usp=sharing"
+          // );
           // window.location.href = 'https://tlrd.gulflandproperty.net/contact.html';
         }, 500);
       })
