@@ -826,7 +826,7 @@ contact.html
   height: 80vh;
   background-color: whitesmoke;
   margin-top: 60px;
-  padding: 40px;
+  padding: 40px 100px;
 }
 .about-tlrd-container {
   padding: 70px;
@@ -928,11 +928,27 @@ contact.html
     flex: unset;
   }
 }
-.underline{
+.underline {
   text-decoration: underline;
 }
-.big-title{
+.big-title {
   font-size: 35px;
   letter-spacing: 2px;
   margin-bottom: 20px;
+}
+.about-list-item {
+  padding: 0 20px;
+}
+.about-list-item h2 {
+  margin-bottom: 15px;
+}
+.about-list-item h2::before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  background: rgb(199, 171, 119);
+  border-radius: 50%;
+  left: -40px;
+  top: 12px;
 }
