@@ -934,10 +934,11 @@ contact.html
 .big-title {
   font-size: 35px;
   letter-spacing: 2px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .about-list-item {
   padding: 0 20px;
+  padding-bottom: 10px;
 }
 .about-list-item h2 {
   margin-bottom: 15px;
