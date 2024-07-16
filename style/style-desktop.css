@@ -222,13 +222,13 @@ nav {
 }
 
 .scratch-section {
-  padding: 50px 25vh;
+  padding: 50px 15vh;
   gap: 50px;
   margin-top: 20px;
 }
 .scratch-content {
   gap: 20px;
-  padding: 0 10px;
+  padding: 0 20px;
   width: 50%;
 }
 .scratch-content h1 {
@@ -237,6 +237,7 @@ nav {
 }
 .scratch-content p {
   font-size: 15px;
+  line-height: 1.8;
 }
 .scratch-content .img-element {
   width: 7vh;
@@ -434,10 +435,10 @@ nav {
 .location-description h4 {
   font-size: 2vw;
   letter-spacing: 5px;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 .location-description p {
-  line-height: 1.1;
+  line-height: 1;
 }
 .schedule-list {
   display: grid;
