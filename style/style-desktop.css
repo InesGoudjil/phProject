@@ -340,9 +340,9 @@ nav {
   right: 0;
 }
 #location {
-  margin: 0 10vh;
+  margin: 0 8vh;
   margin-top: 100px;
-  gap: 80px;
+  gap: 60px;
 }
 .map-section .map-image {
   width: 100%;
@@ -430,7 +430,7 @@ nav {
 }
 .location-description {
   gap: 10px;
-  flex: 0.95;
+  flex: 0.8;
 }
 .location-description h4 {
   font-size: 2vw;
