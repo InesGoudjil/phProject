@@ -823,10 +823,9 @@ contact.html
   background-color: white;
 }
 #about-tlrd {
-  height: 80vh;
   background-color: whitesmoke;
   margin-top: 60px;
-  padding: 40px 100px;
+  padding: 60px 100px;
 }
 .about-tlrd-container {
   padding: 70px;
@@ -938,7 +937,7 @@ contact.html
 }
 .about-list-item {
   padding: 0 20px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 .about-list-item h2 {
   margin-bottom: 15px;
