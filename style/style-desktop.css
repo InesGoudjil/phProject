@@ -228,7 +228,7 @@ nav {
 }
 .scratch-content {
   gap: 20px;
-  padding: 0 40px;
+  padding: 0 10px;
   width: 50%;
 }
 .scratch-content h1 {
@@ -275,9 +275,8 @@ nav {
 }
 .amenities-section .amenities-content {
   gap: 15px;
-  padding: 0 30px;
+  padding: 0 100px;
   color: white;
-  width: 50vw;
 }
 .amenities-content h1 {
   font-size: 2vw;
@@ -435,6 +434,10 @@ nav {
 .location-description h4 {
   font-size: 2vw;
   letter-spacing: 5px;
+  line-height: 1.5;
+}
+.location-description p {
+  line-height: 1.1;
 }
 .schedule-list {
   display: grid;
