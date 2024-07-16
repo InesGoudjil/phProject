@@ -826,6 +826,7 @@ contact.html
   height: 80vh;
   background-color: whitesmoke;
   margin-top: 60px;
+  padding: 40px;
 }
 .about-tlrd-container {
   padding: 70px;
@@ -929,4 +930,9 @@ contact.html
 }
 .underline{
   text-decoration: underline;
+}
+.big-title{
+  font-size: 35px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 }
