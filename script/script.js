@@ -381,3 +381,23 @@ function showFAQS(element) {
     panels[index].classList.remove("d-none");
   }
 }
+var lastScrollTop = 0;
+let nav = document.getElementById("nav");
+window.addEventListener(
+  "scroll",
+  function () {
+    forceCloseMenu();
+    var st = window.pageYOffset || document.documentElement.scrollTop;
+    if (st > lastScrollTop) {
+      nav.classList.add("slide-up");
+    } else {
+      nav.classList.remove("slide-up");
+    }
+    lastScrollTop = st <= 0 ? 0 : st;
+  },
+  false
+);
+function forceCloseMenu() {
+  document.getElementById("nav-menu").classList.remove("side-in");
+  document.getElementById("toggle-btn").classList.remove("open");
+}
