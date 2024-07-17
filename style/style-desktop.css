@@ -704,6 +704,7 @@ textarea::-webkit-scrollbar {
 }
 .footer-menu {
   width: 80%;
+  align-items: flex-start;
 }
 
 .footer-item h3 {
