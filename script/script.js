@@ -1,4 +1,5 @@
-//href="https://maps.app.goo.gl/o9yJWZeN9eCgQB1t5"
+let pdfLink =
+  "https://drive.google.com/file/d/1NPut1-sg-IjEzMu2ftm72Lu2LTMeqnoP/view?usp=sharing";
 let toggleBtn = document.getElementById("toggle-btn");
 function toggleMenu() {
   if (toggleBtn.classList.contains("open")) {
@@ -312,8 +313,7 @@ window.addEventListener("load", function () {
 });
 
 function makeRequest() {
-  let button = document.querySelector(".request-btn");
-  button.textContent = "Sending...";
+  let button = document.getElementById("submit-btn");
   let hint = document.getElementById("hint");
   let name = document.getElementById("name");
   let phone = document.getElementById("phone");
@@ -321,15 +321,12 @@ function makeRequest() {
   let message = document.getElementById("message");
   let countryCode = document.querySelector(".dropdown-header span").textContent;
 
-  // Validate the form data
   if (name.value.trim() === "" || phone.value.trim() === "") {
     hint.classList.add("shown");
     setTimeout(() => {
       hint.classList.remove("shown");
-      button.textContent = "Make a request";
     }, 2000);
   } else {
-    // Create a data object to send to the server
     let data = {
       fullName: name.value,
       email: email.value,
@@ -337,6 +334,7 @@ function makeRequest() {
       message: message.value,
       countryCode: countryCode,
     };
+    button.textContent = "Sending ...";
     axios
       .post("https://www.gulflandproperty.com/api/email", data)
       .then((response) => {
@@ -345,17 +343,13 @@ function makeRequest() {
         email.value = "";
         phone.value = "";
         message.value = "";
-        button.textContent = "Make a request";
+        button.textContent = "Submit";
         setTimeout(() => {
-          window.open(
-            "https://drive.google.com/file/d/1NPut1-sg-IjEzMu2ftm72Lu2LTMeqnoP/view?usp=sharing"
-          );
-          // window.location.href = 'https://tlrd.gulflandproperty.net/contact.html';
+          window.open(pdfLink);
         }, 500);
       })
       .catch((error) => {
-        // Handle error
-        button.textContent = "Make a request";
+        button.textContent = "Submit";
         console.error("Error:", error);
       });
   }

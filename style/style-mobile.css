@@ -130,7 +130,7 @@
   .amenities-section {
     background-color: black;
     margin: 0px !important;
-    padding: 20px;
+    padding: 20px !important;
     gap: 10px;
     padding-bottom: 80px !important;
   }
@@ -150,7 +150,7 @@
     width: 30px !important;
   }
   .amenities-content p {
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
   .amenities-section-content {
     width: 100vw !important;
@@ -195,6 +195,9 @@
   }
   .location-description h4 {
     font-size: 18px !important;
+  }
+  .location-description p {
+    font-size: 14px !important;
   }
   .location-description {
     flex: 1 !important;
@@ -364,6 +367,9 @@
     left: -20px !important;
     top: 8px !important;
   }
+  .about-list-item p {
+    font-size: 14px !important;
+  }
   .footer-contact-content {
     transform: none !important;
     border-radius: 0 !important;
@@ -491,7 +497,8 @@
   }
 
   .about-tlrd-img {
-    height: 100px !important;
+    height: unset !important;
+    width: 80vw !important;
   }
   .faq {
     padding: 70px 20px !important;
