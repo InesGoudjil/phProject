@@ -56,8 +56,9 @@ nav {
 .gold {
   color: rgb(199, 171, 119);
 }
-.black {
+.black_text {
   color: black;
+  text-decoration: underline;
 }
 .side-in {
   animation: slide-in 0.3s forwards;
@@ -234,6 +235,7 @@ nav {
 .scratch-content h1 {
   font-size: 2vw;
   letter-spacing: 5px;
+  line-height: 1.1;
 }
 .scratch-content p {
   font-size: 15px;
@@ -962,4 +964,7 @@ contact.html
 }
 .title__{
   font-weight: lighter;
+}
+.blacky{
+  color: black;
 }
