@@ -542,6 +542,7 @@ nav {
   background-color: rgb(242, 241, 241);
   position: relative;
   padding: 6vh;
+  margin-bottom: 10vh;
   gap: 20px;
   color: white;
   border-radius: 40px;
